@@ -1,0 +1,41 @@
+.banner {
+  height: 50vh;
+  position: relative;
+  background: url('https://media.cntraveller.com/photos/629f1658f78438ff9ee3a25c/16:9/w_2580%2Cc_limit/The%2520Landmark-london-june22-pr-global.jpeg')
+    center center;
+}
+.banner_info {
+  background-color: black;
+  color: white;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+.banner_info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.banner_info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.banner_info > h5 {
+  margin-top: 10px;
+}
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner_search {
+  display: flex;
+  flex-direction: column;
+}
